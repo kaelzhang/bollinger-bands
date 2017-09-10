@@ -1,7 +1,7 @@
 {
   "name": "bollinger-bands",
   "version": "1.0.0",
-  "description": "bollinger-bands",
+  "description": "Fintach math utility to calculate bollinger bands.",
   "main": "lib/index.js",
   "module": "src/index.js",
   "scripts": {
@@ -18,7 +18,10 @@
     "url": "git://github.com/kaelzhang/bollinger-bands.git"
   },
   "keywords": [
-    "bollinger-bands"
+    "bollinger-bands",
+    "fintech",
+    "financial-technology",
+    "stock"
   ],
   "engines": {
     "node": ">=4"
@@ -56,6 +59,8 @@
     "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
-    "babel-runtime": "^6.23.0"
+    "babel-runtime": "^6.23.0",
+    "moving-averages": "^3.0.6",
+    "s-deviation": "^1.0.1"
   }
 }

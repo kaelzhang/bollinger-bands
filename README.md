@@ -15,7 +15,7 @@
 
 # bollinger-bands
 
-<!-- description -->
+Fintach math utility to calculate [bollinger bands](https://en.wikipedia.org/wiki/Bollinger_Bands)
 
 ## Install
 
@@ -26,8 +26,22 @@ $ npm install bollinger-bands
 ## Usage
 
 ```js
-import bollinger_bands from 'bollinger-bands'
+import boll from 'bollinger-bands'
 ```
+
+## boll(datum, n, k)
+
+- **datum** `Array.<Number>` the collection of data
+- **n** `Number=20` the period size, defaults to `20`
+- **k** `Number=2` the times of standard deviation between the upper band and the moving average.
+
+Returns `Array.<Band>` the array of the `Band` object.
+
+### struct `Band`
+
+- **upper** `Number` the value of the upper band
+- **ma** `Number` the moving average
+- **lower** `Number` the value of the lower band
 
 ## License
 
