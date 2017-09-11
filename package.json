@@ -60,6 +60,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.23.0",
+    "math-array": "^1.0.0",
     "moving-averages": "^3.0.6",
     "s-deviation": "^1.0.1"
   }
