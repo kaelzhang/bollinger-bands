@@ -30,9 +30,9 @@ import boll from 'bollinger-bands'
 
 boll([1, 2, 4, 8], 2, 2)
 // {
-//   upper: [2,   5,  14],
-//   mid  : [1.5, 3,  6],
-//   lower: [1,   1,  -2]
+//   upper: [, 2.5, 5, 10],
+//   mid  : [, 1.5, 3, 6],
+//   lower: [, 0.5, 1, 2]
 // }
 ```
 
