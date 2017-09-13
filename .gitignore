@@ -22,6 +22,7 @@ nohup.out
 .nyc_output
 coverage.lcov
 package-lock.json
+*.tgz
 
 # OS or Editor folders
 .DS_Store
