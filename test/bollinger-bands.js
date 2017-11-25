@@ -14,7 +14,7 @@ const times = 2
 
 const expect = {
   upper: [, 2.5, 5, 10],
-  mid  : [, 1.5, 3, 6],
+  middle: [, 1.5, 3, 6],
   lower: [, 0.5, 1, 2]
 }
 

@@ -23,7 +23,7 @@ export default (datum, size = 20, times = 2, {
 
   return {
     upper: add(avg, timesSd),
-    mid: avg,
+    middle: avg,
     lower: sub(avg, timesSd)
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "bollinger-bands",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "Fintach math utility to calculate bollinger bands.",
   "main": "lib/index.js",
   "module": "src/index.js",

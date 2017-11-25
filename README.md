@@ -50,7 +50,7 @@ Returns `Array.<Band>` the array of the `Band` object.
 ### struct `Band`
 
 - **upper** `Number` the value of the upper band
-- **mid** `Number` the value middle band (moving average)
+- **middle** `Number` the value middle band (moving average)
 - **lower** `Number` the value of the lower band
 
 ## Related Fintech Modules
